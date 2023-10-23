@@ -10,6 +10,7 @@
 
 :root{
     --gray-800: #1E293b;
+    --gray-600: #475569;
 }
 /* numero = 20*/
 /* print(numero) */
@@ -32,5 +33,11 @@ main{
 .descricao h1{
     color: var(--gray-800);
     margin-bottom: 1rem;
+    font-size: 1.5625rem;
+}
+
+.descricao p{
+    font-size: 0.8125;
+    color: var(--gray-600);
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
