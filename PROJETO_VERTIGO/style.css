@@ -11,6 +11,7 @@
 :root{
     --gray-800: #1E293b;
     --gray-600: #475569;
+    --purple: #7c3aed;
 }
 /* numero = 20*/
 /* print(numero) */
@@ -39,5 +40,36 @@ main{
 .descricao p{
     font-size: 0.8125;
     color: var(--gray-600);
+}
+
+.descricao{
+    margin-bottom: 2.5rem;
+}
+
+.login label{
+    font-size: 0.875rem;
+    color: var(--gray-800);
+    font-weight: 600;
+}
+
+.inputs-box{
+    display: flex;
+    flex-direction: column;
+}
+.inputs-box div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.login a {
+    color: var(--purple);
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+
+.login a:hover {
+    text-decoration: underline;
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
