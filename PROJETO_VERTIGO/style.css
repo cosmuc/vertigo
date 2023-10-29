@@ -14,6 +14,7 @@
     --gray-600: #475569;
     --purple: #7c3aed;
     --gray-200: #e2e8f0;
+    --white: #fff;
 }
 /* numero = 20*/
 /* print(numero) */
@@ -91,5 +92,17 @@ main{
 
 .login a:hover {
     text-decoration: underline;
+}
+.login button{
+    margin-top: 2.2rem;
+    padding-block: 1.6rem;
+    width: 100%;
+    background: var(--purple);
+    border: none;
+    border-radius: 0.4rem;
+
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--white);
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
