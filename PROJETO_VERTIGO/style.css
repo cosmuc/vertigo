@@ -15,6 +15,7 @@
     --purple: #7c3aed;
     --gray-200: #e2e8f0;
     --white: #fff;
+    --light-purple: #9f67ff;
 }
 /* numero = 20*/
 /* print(numero) */
@@ -110,6 +111,12 @@ main{
     color: var(--gray-600);
 }
 
+.login button:hover{
+    background: var(--light-purple);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
 .login > p a{
     font-weight: 700;
     font-size: 1rem;
@@ -145,11 +152,21 @@ main{
 
     .conteudo{
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 
     .bg-desktop{
         display: block;
         width: 100%;
+    }
+    .descricao h1{
+        font-size: 2.25rem;
+    }
+
+    .descricao p{
+        font-size: 1rem;
     }
 }
 /* nome da cor, rgb, rgba, hex, hsl, hwb */
